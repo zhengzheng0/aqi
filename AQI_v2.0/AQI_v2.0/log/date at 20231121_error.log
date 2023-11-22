@@ -1,0 +1,41 @@
+[2023-11-21 17:01:25] [error] [D:\XJTU\项目\文教园\榆林\AQI_v2.0\AQI_v2.0\AQI .py - 92 - cal_co_iaqi] CO指数超出正常数值范围.
+[2023-11-21 17:01:25] [error] [D:\XJTU\项目\文教园\榆林\AQI_v2.0\AQI_v2.0\AQI .py - 241 - <module>] 计算AQI失败，原因如下：
+[2023-11-21 17:01:25] [error] [D:\XJTU\项目\文教园\榆林\AQI_v2.0\AQI_v2.0\AQI .py - 242 - <module>] Traceback (most recent call last):
+  File "D:\XJTU\项目\文教园\榆林\AQI_v2.0\AQI_v2.0\AQI .py", line 234, in <module>
+    aqi_val = cal_aqi(param_list)
+              ^^^^^^^^^^^^^^^^^^^
+  File "D:\XJTU\项目\文教园\榆林\AQI_v2.0\AQI_v2.0\AQI .py", line 171, in cal_aqi
+    aqi = max(iaqi_list)
+          ^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'float' and 'NoneType'
+
+[2023-11-21 17:10:15] [error] [D:\XJTU\项目\文教园\榆林\AQI_v2.0\AQI_v2.0\AQI .py - 92 - cal_co_iaqi] CO指数超出正常数值范围.
+[2023-11-21 17:10:15] [error] [D:\XJTU\项目\文教园\榆林\AQI_v2.0\AQI_v2.0\AQI .py - 241 - <module>] 计算AQI失败，原因如下：
+[2023-11-21 17:10:15] [error] [D:\XJTU\项目\文教园\榆林\AQI_v2.0\AQI_v2.0\AQI .py - 242 - <module>] Traceback (most recent call last):
+  File "D:\XJTU\项目\文教园\榆林\AQI_v2.0\AQI_v2.0\AQI .py", line 234, in <module>
+    aqi_val = cal_aqi(param_list)
+              ^^^^^^^^^^^^^^^^^^^
+  File "D:\XJTU\项目\文教园\榆林\AQI_v2.0\AQI_v2.0\AQI .py", line 171, in cal_aqi
+    aqi = max(iaqi_list)
+          ^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'float' and 'NoneType'
+
+[2023-11-21 17:22:55] [error] [D:\XJTU\项目\文教园\榆林\AQI_v2.0\AQI_v2.0\AQI .py - 270 - <module>] 保存输出数据失败,错误原因为:
+[2023-11-21 17:22:55] [error] [D:\XJTU\项目\文教园\榆林\AQI_v2.0\AQI_v2.0\AQI .py - 271 - <module>] Traceback (most recent call last):
+  File "D:\XJTU\项目\文教园\榆林\AQI_v2.0\AQI_v2.0\AQI .py", line 265, in <module>
+    output.to_excel(output_path)
+  File "D:\software\Anaconda3\Lib\site-packages\pandas\core\generic.py", line 2252, in to_excel
+    formatter.write(
+  File "D:\software\Anaconda3\Lib\site-packages\pandas\io\formats\excel.py", line 934, in write
+    writer = ExcelWriter(  # type: ignore[abstract]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\software\Anaconda3\Lib\site-packages\pandas\io\excel\_openpyxl.py", line 60, in __init__
+    super().__init__(
+  File "D:\software\Anaconda3\Lib\site-packages\pandas\io\excel\_base.py", line 1219, in __init__
+    self._handles = get_handle(
+                    ^^^^^^^^^^^
+  File "D:\software\Anaconda3\Lib\site-packages\pandas\io\common.py", line 868, in get_handle
+    handle = open(handle, ioargs.mode)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'output_result/AQI_data_{formatted_time}.xlsx'
+

@@ -1,0 +1,17 @@
+[2022-05-27 12:53:13] [info] [C:/Users/Administrator/Desktop/榆林项目/AQI_v2.0/AQI .py - 201 - <module>] 读入数据
+[2022-05-27 12:53:13] [info] [C:/Users/Administrator/Desktop/榆林项目/AQI_v2.0/AQI .py - 208 - <module>] 数据读取成功
+[2022-05-27 12:53:13] [info] [C:/Users/Administrator/Desktop/榆林项目/AQI_v2.0/AQI .py - 213 - <module>] 【第0时刻】
+[2022-05-27 12:53:13] [info] [C:/Users/Administrator/Desktop/榆林项目/AQI_v2.0/AQI .py - 221 - <module>] 输入正常
+[2022-05-27 12:53:13] [info] [C:/Users/Administrator/Desktop/榆林项目/AQI_v2.0/AQI .py - 226 - <module>] 计算【第0时刻】AQI指数及等级
+[2022-05-27 12:53:13] [info] [C:/Users/Administrator/Desktop/榆林项目/AQI_v2.0/AQI .py - 172 - cal_aqi] 当前计算AQI指数为：180.0
+[2022-05-27 12:53:13] [info] [C:/Users/Administrator/Desktop/榆林项目/AQI_v2.0/AQI .py - 193 - cal_aqi_evaluation] 当前计算AQI等级为：中度污染
+[2022-05-27 12:53:13] [info] [C:/Users/Administrator/Desktop/榆林项目/AQI_v2.0/AQI .py - 235 - <module>] 计算完毕
+[2022-05-27 12:53:13] [info] [C:/Users/Administrator/Desktop/榆林项目/AQI_v2.0/AQI .py - 250 - <module>] 输出完毕
+[2022-05-27 12:53:13] [info] [C:/Users/Administrator/Desktop/榆林项目/AQI_v2.0/AQI .py - 213 - <module>] 【第1时刻】
+[2022-05-27 12:53:13] [info] [C:/Users/Administrator/Desktop/榆林项目/AQI_v2.0/AQI .py - 221 - <module>] 输入正常
+[2022-05-27 12:53:13] [info] [C:/Users/Administrator/Desktop/榆林项目/AQI_v2.0/AQI .py - 226 - <module>] 计算【第1时刻】AQI指数及等级
+[2022-05-27 12:53:13] [info] [C:/Users/Administrator/Desktop/榆林项目/AQI_v2.0/AQI .py - 172 - cal_aqi] 当前计算AQI指数为：160.0
+[2022-05-27 12:53:13] [info] [C:/Users/Administrator/Desktop/榆林项目/AQI_v2.0/AQI .py - 193 - cal_aqi_evaluation] 当前计算AQI等级为：中度污染
+[2022-05-27 12:53:13] [info] [C:/Users/Administrator/Desktop/榆林项目/AQI_v2.0/AQI .py - 235 - <module>] 计算完毕
+[2022-05-27 12:53:13] [info] [C:/Users/Administrator/Desktop/榆林项目/AQI_v2.0/AQI .py - 250 - <module>] 输出完毕
+[2022-05-27 12:53:13] [info] [C:/Users/Administrator/Desktop/榆林项目/AQI_v2.0/AQI .py - 256 - <module>] ----------保存输出数据完毕----------
